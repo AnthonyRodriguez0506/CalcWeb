@@ -1,3 +1,4 @@
 function valor (x){
-    document.getElementById("display").value
+    document.getElementById("display").value += x;
+
 }
