@@ -6,6 +6,11 @@
 
     <title>CalcWeb - By Anthony</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/346/346399.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -42,9 +47,9 @@
 
             <div class="resultClear">
                 <input type="button" id="result" value="=" onclick="resultDisplay()">
-                <input type="button" id="clear" value="" onclick="clearDisplay(document.getElementById('clear').value)">
+                
+                <button type="button" id="clear" value="" onclick="clearDisplay(document.getElementById('clear').value)">C</button>
             </div>
-
         </form>
     </div>
 

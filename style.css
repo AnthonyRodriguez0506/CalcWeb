@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing:  border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-color: #001d3d;
+}
+
+body div.calc {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #3a4764;
+    border-radius: 18px;
+    border: 2px solid #3a4764;
+}
+
+div input[type='button'], button{
+    width: 56px;
+    height: 56px;
+    margin: 3px 1px;
+    background-color: #eae3dc;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #eae3dc;
+    border-radius: 6px;
+}
+
+div input[type='text'], text{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 68px;
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #182034;
+    border-radius: 12px;
+    background-color: #182034;
+    padding: 12px;
+    font-size: 36px;
+    color: white;
+    
+    user-select: none;
+    pointer-events: none;
+}
+
+div.resultClear input, div.result button {
+    height: 56px;
+    width: 118px;
+    margin-top: 1px;
+    background-color: #637097;
+    color: white;
+    border: 2px solid #637097;
+}
+
+div.resultClear button {
+    height: 56px;
+    width: 118px;
+    margin-top: 1px;
+    background-color: #d03f2f;
+    color: white;
+    border: 2px solid #d03f2f;
+}
