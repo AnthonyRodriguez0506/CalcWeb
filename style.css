@@ -6,14 +6,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+#titlePage {
     display: flex;
     flex-direction: column;
     text-align: center;
     color: white;
-    font-size: 30px;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 
     user-select: none;
     pointer-events: none;
@@ -86,7 +86,7 @@ div.resultClear button {
 }
 
 #myName  {
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     color: white;
     margin-top: 20px;
@@ -95,10 +95,11 @@ div.resultClear button {
     pointer-events: none;
 }
 
-#LoveCoffee  {
-    font-size: 14px;
+#copyright  {
+    font-size: 16px;
     text-align: center;
     color: white;
+    margin-top: 8px;
 
     user-select: none;
     pointer-events: none;
