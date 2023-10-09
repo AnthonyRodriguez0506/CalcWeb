@@ -5,6 +5,10 @@ function clearDisplay(y) {
     document.getElementById('display').value = y;
 }
 function resultDisplay() {
-    var result = eval(document.getElementById('display').value);
+    let result = eval(document.getElementById('display').value);
     document.getElementById('display').value = result;
+}
+function backspace() {
+    let currentValue = document.getElementById('display').value;
+    document.getElementById('display').value = currentValue.slice(0, -1);
 }
